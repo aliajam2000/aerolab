@@ -1,0 +1,41 @@
+PASS speed doubling gives fourfold lift at fixed CL
+PASS density halving halves lift; sqrt(2) TAS restores it
+PASS area scaling is linear
+PASS pitch minus flight path; descending nose-low stall
+PASS stall status does not vanish with more speed
+PASS camber shifts zero lift and reverses sign
+PASS each positive critical angle is the true CL maximum
+PASS CL is continuous through shoulder and stall
+PASS fixed-lift induced drag quarter; parasite quadruple
+PASS VMD: equal components, total minimum, max L/D
+PASS unattainable level-flight demand does not create fictitious lift
+PASS load reference speed scales sqrt(n) without moving alpha crit
+PASS continuity and Bernoulli balance at inlet/throat
+PASS positive pressure throughout control envelope
+PASS stable neutral unstable static moments
+PASS CP and constant AC moment agree; undefined near zero CL
+PASS steady climb and descent balance uses L=W cos gamma
+PASS all 32 missions have reachable solutions within available controls
+PASS all eight Learn experiments have reachable solutions
+PASS every prediction changes the intended model output
+PASS parameter grid stays finite with valid positive drag
+PASS all mission initial states are finite before any player action
+22 scientific and curriculum checks passed.
+PASS offline initial launch, source navigation and metrics
+PASS opening/recording without action awards no mastery
+PASS prediction locks reveal until selection and explains wrong answer
+PASS correct prediction + control goal records discovery, persists mastery
+PASS repeated submission cannot farm lesson mastery
+PASS Lab baseline compares physical results without mastery awards
+PASS all eight modules render three modes without invalid SVG numbers
+PASS all eight prediction dialogs execute and preserve working states
+PASS all eight Learn goals award mastery only after manipulation
+PASS all 32 missions pass through real application handlers and unlock tiers
+PASS logbook, achievements and integration snapshot reflect completed work
+PASS settings persist and reset setup retains learned progress
+PASS corrupt JSON and invalid scores safely recover
+PASS denied storage does not prevent play
+PASS confirmed reset clears scores, lessons, mastery and tier locks
+15 DOM-emulation checks passed. This does not test browser layout, touch, CSS or native dialog behavior.
+PASS static audit: unique IDs, all local runtime paths, no remote dependencies, DOM references, responsive/focus/reduced-motion CSS and required documentation.
+This is static analysis, not desktop/mobile rendering or assistive-technology testing.
